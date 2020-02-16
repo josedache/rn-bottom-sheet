@@ -1,0 +1,8 @@
+tsconfig.json
+yarn.lock
+src/
+example/
+react-hexagon.png
+
+# overrides
+# lib/

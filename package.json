@@ -1,0 +1,33 @@
+{
+  "name": "@josedache/rn-bottom-sheet",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "esnext": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Joe <josedache0@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "tsc -w",
+    "build": "rm -rf josedache-* && yarn pack"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.60.0",
+    "react-native-gesture-handler": "*",
+    "react-native-reanimated": "*"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "@types/react": "^16.9.19",
+    "@types/react-native": "^0.61.15",
+    "@types/react-test-renderer": "^16.9.2",
+    "react-native-gesture-handler": "^1.6.0",
+    "react-native-reanimated": "^1.7.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@josedache/rn-media-query": "^1.0.0"
+  }
+}
