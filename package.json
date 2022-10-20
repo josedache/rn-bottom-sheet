@@ -24,7 +24,7 @@
     "@types/react-native": "^0.61.15",
     "@types/react-test-renderer": "^16.9.2",
     "react-native-gesture-handler": "^1.6.0",
-    "react-native-reanimated": "^1.7.0",
+    "react-native-reanimated": "^2.10.0",
     "typescript": "^3.7.5"
   },
   "dependencies": {
